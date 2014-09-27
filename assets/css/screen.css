@@ -21,6 +21,11 @@
 
 */
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /* ==========================================================================
    0. Normalize.css v2.1.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
@@ -468,10 +473,6 @@ margin on the iframe, cause it breaks stuff. */
 /* ==========================================================================
    4. General - The main styles for the the theme
    ========================================================================== */
-
-.sidebar {
-
-}
 
 
 /* Big cover image on the home page */
@@ -1337,11 +1338,9 @@ body:not(.post-template) .post-title {
 
 @media only screen and (min-width : 1224px) {
     .sidebar {
-        height:100%;
         position: fixed;
         top: 0px;
         display: table;
-        width: 25%;
         height: 100%;
         margin-bottom: 0;
         text-align: left;
@@ -1355,7 +1354,7 @@ body:not(.post-template) .post-title {
     }
 
     .rightcol {
-        position: relative;
+        overflow:hidden;
         left: 20%;
         width:80%;
 
