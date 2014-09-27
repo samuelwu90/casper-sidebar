@@ -1370,6 +1370,7 @@ body:not(.post-template) .post-title {
         width:0;
         height:0;
     }
+
     .main-nav {
         padding: 15px;
     }
@@ -1493,7 +1494,10 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-
+    .sidebar{
+        width:0;
+        height:0;
+    }
     .main-header {
         margin-bottom: 15px;
         height: 40%;
