@@ -166,6 +166,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-link:before {
     content: "\f608";
 }
+.icon-github:before {
+    content: "\f609";
+}
+.icon-linkedin:before {
+    content: "\f610";
+}
 
 
 /* ==========================================================================
@@ -466,9 +472,9 @@ margin on the iframe, cause it breaks stuff. */
 /* Centres vertically yo. (IE8+) */
 .vertical {
     display: table-cell;
-    vertical-align: middle;
+    position:absolute;
+    top:50%;
 }
-
 
 /* ==========================================================================
    4. General - The main styles for the the theme
@@ -1341,57 +1347,52 @@ body:not(.post-template) .post-title {
     text-decoration: none;
 }
 
-@media only screen and (min-width : 1224px) {
-    .sidebar {
-        position: fixed;
-        top: 0px;
-        display: table;
-        height: 100%;
-        margin-bottom: 0;
-        text-align: left;
-        background: #222 no-repeat center center;
-        background-size: cover;
-        overflow: hidden;
-    }
-
-    .leftcol {
-        width:20%;
-    }
-
-    .rightcol {
-        overflow:hidden;
-        left: 20%;
-        width:80%;
-
-    }
+.sidebar {
+    position: fixed;
+    top: 0px;
+    display: table;
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    background: #222 no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){}
-    .sidebar {
-        height:120%;
-        position: fixed;
-        top: 0px;
-        display: table;
-        width: 25%;
-        height: 100%;
-        margin-bottom: 0;
-        text-align: left;
-        background: #222 no-repeat center center;
-        background-size: cover;
-        overflow: hidden;
-    }
-
-    .leftcol {
-        width:20%;
-    }
-
-    .rightcol {
-        position: relative;
-        left: 20%;
-        width:80%;
-
-    }
+.leftcol {
+    width:20%;
 }
+
+.rightcol {
+    position: relative;
+    left: 20%;
+    width:80%;
+
+}
+
+.lower {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin: 8rem 0 0 0;
+    padding: 0.5rem 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    color: #BBC7CC;
+}
+
+.lower a {
+    color: #BBC7CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lower a:hover {
+    color: #50585D;
+}
+
+
+
 /* ==========================================================================
    10. Media Queries - Smaller than 900px
    ========================================================================== */

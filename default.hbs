@@ -23,9 +23,12 @@
 </head>
 
 <body class="{{body_class}}">
+
     {{! Everything else gets inserted here }}
     {{{body}}}
     {{> "sidebar"}}
+
+
 
     <footer class="rightcol site-footer clearfix">
          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
@@ -38,5 +41,6 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+
 </body>
 </html>
