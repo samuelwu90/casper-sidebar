@@ -1321,6 +1321,7 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
+    padding-right: 3%;
     width: 45%;
     float: right;
     text-align: right;
@@ -1335,6 +1336,10 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    Columns
    ========================================================================== */
+
+.sidebar-link{
+    text-decoration: none;
+}
 
 @media only screen and (min-width : 1224px) {
     .sidebar {
