@@ -1,8 +1,9 @@
-# Casper
+# Ghost's Casper theme with a sidebar!
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+A tweak of the default theme for Ghost to include a sidebar.  Only works on desktop for now.
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+Please visit [Ghost](http://github.com/tryghost/ghost/)'s website for more info.
+
 
 ## Copyright & License
 
