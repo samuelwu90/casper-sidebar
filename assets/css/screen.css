@@ -1305,7 +1305,11 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .site-footer {
-    position: relative;
+    position: absolute;
+    left:0;
+    bottom:-50%;
+    width: 100%;
+    height:2%;
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
@@ -1391,7 +1395,9 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
-
+.main{
+    position:fixed;
+}
 
 /* ==========================================================================
    10. Media Queries - Smaller than 900px
@@ -1695,7 +1701,7 @@ body:not(.post-template) .post-title {
     }
 
     .post-template .site-footer {
-        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .post-content img {
