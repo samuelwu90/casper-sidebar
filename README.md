@@ -6,11 +6,11 @@ Please visit [Ghost](http://github.com/tryghost/ghost/)'s website for more info.
 
 Changes from the original:
 
-0.Blog title/description now appear in a sidebar
-0.Sidebar contains about me, projects, contact links
-0.Post date appears before tags in blurbs
-0.Author image removed from blurbs (for single author blogs)
-0.Fill-the-screen cover image has been removed
+*Blog title/description now appear in a sidebar
+*Sidebar contains about me, projects, contact links
+*Post date appears before tags in blurbs
+*Author image removed from blurbs (for single author blogs)
+*Fill-the-screen cover image has been removed
     
 
 ## Copyright & License
