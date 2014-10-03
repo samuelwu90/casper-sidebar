@@ -5,6 +5,7 @@ A tweak of the default theme for Ghost to include a sidebar.  Only works on desk
 Please visit [Ghost](http://github.com/tryghost/ghost/)'s website for more info.
 
 Changes from the original:
+
 0.Blog title/description now appear in a sidebar
 0.Sidebar contains about me, projects, contact links
 0.Post date appears before tags in blurbs
