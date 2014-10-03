@@ -1,15 +1,15 @@
 # Ghost's Casper theme with a sidebar!
 
-A tweak of the default theme for Ghost to include a sidebar.  Only works on desktop for now.
+A tweak of the default theme for Ghost to include a sidebar.  Only works on desktop for now - check it out at www.samuelwu.ca
 
 Please visit [Ghost](http://github.com/tryghost/ghost/)'s website for more info.
 
 Changes from the original:
-    - Blog title/description now appear in a sidebar
-    - Sidebar contains about me, projects, contact links
-    - Post date appears before tags in blurbs
-    - Author image removed from blurbs (for single author blogs)
-    - Fill-the-screen cover image has been removed
+    *Blog title/description now appear in a sidebar
+    *Sidebar contains about me, projects, contact links
+    *Post date appears before tags in blurbs
+    *Author image removed from blurbs (for single author blogs)
+    *Fill-the-screen cover image has been removed
     
 
 ## Copyright & License
